@@ -1,0 +1,43 @@
+.navi{
+    position: sticky;
+    top:0;
+    /* min-height: px; */
+    width: 80%;
+    margin: 0 auto;
+    /* display: flex; */
+    justify-content: space-between;
+    
+   
+    overflow: hidden;
+}
+
+
+.navi li{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+    display: inline;  
+}
+li:hover{
+    cursor: pointer;
+    background: -webkit-linear-gradient(to right, #a7fdcc, #12dafb,#1fa0ff);
+    background: linear-gradient(to right, #a7fdcc, #12dafb,#1fa0ff); 
+    border-radius: 25%;
+}
+
+.shop{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    ;
+}
+
+.flex-shopping-cart{
+    justify-content: space-between;
+    /* background: -webkit-linear-gradient(to right, #a7fdcc, #12dafb,#1fa0ff);
+    background: linear-gradient(to right, #a7fdcc, #12dafb,#1fa0ff);  */
+    color:whitesmoke;
+    background-color: rgb(33, 37, 70);
+    margin-bottom: 20px 30px;
+  }
